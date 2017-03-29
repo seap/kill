@@ -1,12 +1,20 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"     background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="user-operation">
+    <view bindtap="bindEnterTap">
+      <button class="button" type="primary"> 进入房间 </button>
+    </view>
+    <view bindtap="bindCreateTap">
+      <button class="button"> 创建房间 </button>
+    </view>
   </view>
-  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary"> primary </button>
+
+  <view class="power">
+    <text >power by sea.yang</text>
+  </view>
 </view>

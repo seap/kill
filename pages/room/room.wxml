@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <button class="button" type="primary" > 创建房间 </button>
+  </view>
+  <view>
+    <button class="button" type="primary" > 进入房间 </button>
+  </view>
+</view>

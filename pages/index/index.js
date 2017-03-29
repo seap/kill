@@ -6,12 +6,25 @@ Page({
     motto: 'Hello World',
     userInfo: {}
   },
-  //事件处理函数
+  // 事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+  // 进入房间
+  bindEnterTap: function() {
+    wx.navigateTo({
+      url: '../room/room'
+    })
+  },
+  // 创建房间
+  bindCreateTap: function() {
+    wx.navigateTo({
+      url: '../create/create'
+    })
+  },
+
   onLoad: function () {
     console.log('onLoad')
     var that = this

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card" wx:for="{{cards}}">
+    <button size="mini" bindtap="bindDecreaseTap" data-index="{{index}}"> - </button>
+    <view class="number">{{item.number}}</view>
+    <button size="mini" bindtap="bindIncreaseTap" data-index="{{index}}"> + </button>
+  </view>
+
+  <view>
+  </view>
+</view>

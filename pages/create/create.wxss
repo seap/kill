@@ -1,0 +1,29 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0 25rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.card {
+  width: 220rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eeffee;
+}
+
+.number {
+  flex: 1;
+  text-align: center;
+}
+
+.stepButton {
+   
+}
