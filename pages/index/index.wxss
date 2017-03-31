@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-} 
+}
 
 .userinfo {
   display: flex;
@@ -32,12 +32,12 @@
 }
 
 .button {
-  width: 650rpx;
+  width: 700rpx;
   margin-top: 25rpx;
 }
 
 .power {
-  margin-top: 100rpx; 
+  margin-top: 100rpx;
   font-size: 24rpx;
   color: #aaa;
   text-align: center;

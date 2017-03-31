@@ -2,21 +2,45 @@
 .container {
   height: 100%;
   width: 100%;
-  padding: 0 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.cardContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   box-sizing: border-box;
-} 
+}
 
 .card {
+  width: 220rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.name {
+  font-size: 28rpx;
+  margin: 10rpx 0;
+}
+
+.control {
   width: 220rpx;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #eeffee;
 }
 
 .number {
@@ -24,6 +48,7 @@
   text-align: center;
 }
 
-.stepButton {
-   
+.button {
+  width: 700rpx;
+  margin-top: 85rpx;
 }

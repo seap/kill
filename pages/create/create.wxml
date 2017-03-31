@@ -1,11 +1,17 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="card" wx:for="{{cards}}">
-    <button size="mini" bindtap="bindDecreaseTap" data-index="{{index}}"> - </button>
-    <view class="number">{{item.number}}</view>
-    <button size="mini" bindtap="bindIncreaseTap" data-index="{{index}}"> + </button>
+  <view class="cardContainer">
+    <view class="card" wx:for="{{cards}}">
+      <image class="image" src="{{item.image}}"></image>
+      <text class="name">{{item.name}}</text>
+      <view class="control">
+        <button size="mini" bindtap="bindDecreaseTap" data-index="{{index}}"> - </button>
+        <view class="number">{{item.number}}</view>
+        <button size="mini" bindtap="bindIncreaseTap" data-index="{{index}}"> + </button>
+      </view>
+    </view>
   </view>
-
-  <view>
+  <view bindtap="bindCreateTap">
+    <button class="button" type="primary"> 确认 </button>
   </view>
 </view>
