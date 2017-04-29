@@ -1,29 +1,28 @@
-/**app.wxss**/
-.container {
-  height: 100%;
+/**create.wxss**/
+
+.cardContainer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
 }
 
-.cardContainer {
+.title {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-  box-sizing: border-box;
+  height: 100rpx;
+  padding: 0 15rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+
+  border-bottom: 1rpx solid #e4e3e8;
 }
 
 .card {
-  width: 220rpx;
-  margin-top: 20rpx;
   display: flex;
-  flex: 1;
-  flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1rpx solid #e4e3e8;
 }
 
 .image {
@@ -32,14 +31,16 @@
 }
 
 .name {
+  flex: 1;
   font-size: 28rpx;
-  margin: 10rpx 0;
+  margin: 0 15rpx;
 }
 
 .control {
   width: 220rpx;
   display: flex;
   align-items: center;
+  margin: 0 15rpx;
   justify-content: space-between;
 }
 
@@ -49,6 +50,10 @@
 }
 
 .button {
+  position: fixed;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin: 25rpx auto;
   width: 700rpx;
-  margin-top: 85rpx;
 }

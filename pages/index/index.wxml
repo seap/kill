@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"     background-size="cover"></image>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
 
@@ -15,6 +15,6 @@
   </view>
 
   <view class="power">
-    <text >power by sea.yang</text>
+    <text class="author">power by sea.yang</text>
   </view>
 </view>

@@ -37,7 +37,12 @@
 }
 
 .power {
-  margin-top: 100rpx;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin:0 auto;
+  padding: 15rpx;
   font-size: 24rpx;
   color: #aaa;
   text-align: center;
